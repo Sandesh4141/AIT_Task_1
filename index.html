@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <title>Index | Resume</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        background-color: black;
+        color: gainsboro;
+    }
+
+    header {
+        background-color: rgba(219, 212, 212, 0.25);
+        padding: 15px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        line-height:30px;
+    }
+
+    header>* {
+        padding: 3px 0;
+    }
+
+    h1,
+    h4,
+    h2 {
+        /* common font */
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h1 {
+        font-weight: 700;
+        color: rgb(238, 182, 79);
+        text-decoration: underline;
+    }
+
+    h2 {
+        color: rgb(238, 182, 79);
+        font-weight: 400;
+        text-decoration: underline;
+
+    }
+
+    h4 {
+        font-weight: 400;
+        color: gainsboro;
+    }
+
+    a {
+        text-decoration: none;
+
+        color: gainsboro;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .profile_image_wrapper {
+        width: 100px;
+        height: auto;
+
+    }
+
+    .profile_image_wrapper img {
+        /* responsive profile image */
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        margin-top: 20px;
+        padding: 15px 30px;
+        text-align: center;
+    }
+
+    main table {
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        /* border: 2px solid #dcdcdc; */
+        width: 100%;
+        text-align: center;
+    }
+
+    main table th,
+    tr,
+    td {
+        border: 1px solid gainsboro;
+        padding: 10px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+
+            <h1>Sandesh Pawar</h1>
+            <h4>(+91)8999054068</h4>
+            <h4><a href="mailto:sandeshpawar414141@gmail.com">sandeshpawar414141@gmail.com</a></h4>
+            <h4><a href="https://github.com/Sandesh4141">Github@sandesh4141</a></h4>
+
+        </div>
+        <div class="profile_image_wrapper">
+            <!-- temp image -->
+            <img src="./profile_image.png" alt="sandesh pawar image">
+        </div>
+
+    </header>
+
+    <main>
+        <h2>Educational Qualification</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>University/Board</th>
+                <th>Year Of Passing</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>SSC</td>
+                <td>Secondary and Higer Secondary Board</td>
+                <td>2018</td>
+                <td>71%</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>Secondary and Higer Secondary Board</td>
+                <td>2020</td>
+                <td>55%</td>
+            </tr>
+            <tr>
+                <td>
+                    BCA(Science)
+                </td>
+                <td>SPPU </td>
+                <td>2023</td>
+                <td>79%</td>
+            </tr>
+            <tr>
+                <td>MCA</td>
+                <td>SPPU</td>
+                <td>202*</td>
+                <td>--</td>
+            </tr>
+
+        </table>
+
+        <h2>Technical Skills</h2>
+        <table>
+            <tr>
+                <th>Operating System</th>
+                <td>Windows 10, 11, Ubuntu, Zorin, Kali-linux, ParrotOS, Mint, Redhat</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </main>
+
+</body>
+
+</html>
+
+<!-- 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; -->
